@@ -14,3 +14,16 @@
  *= require_self
  *= require jquery.rambling.slider
  */
+html, 
+body {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  font-family:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+  background-image: url('ceiba_bg.png');
+
+}
