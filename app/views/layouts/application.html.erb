@@ -5,10 +5,24 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag 'jquery.rambling.slider' %>
-  <%= javascript_include_tag 'jquery.rambling.slider' %>
+ 
+
 </head>
 <body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="container-fluid">
+<ul class="nav nav-tabs">
+<li><%= link_to "Welcome", welcome_index_path %> </li>
+<li><%= link_to "Curriculim Vitae", welcome_cv_path %> </li>
+<li><%= link_to "Portfolio", welcome_portfolio_path %> </li>
+<li><%= link_to "Wins", welcome_wins_path %> </li>
+<li><%= link_to "Contact", welcome_contact_path %> </li>
+</ul>
+
+</div>
+</nav>
 
 <%= yield %>
 

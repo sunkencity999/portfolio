@@ -26,3 +26,1962 @@ ActionView::Template::Error (couldn't find file 'jquery.rambling.slider'
   Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
   Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+  [1m[36m (143.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (99.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 15:52:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 961ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( jquery.rambling.slider.css )` to `config/initializers/assets.rb` and restart your server):
+     5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:   <%= csrf_meta_tags %>
+     8:   <%= stylesheet_link_tag 'jquery.rambling.slider' %>
+     9:   <%= javascript_include_tag 'jquery.rambling.slider' %>
+    10: </head>
+    11: <body>
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3075901090357486439_19536540'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 15:53:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:04:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:09:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:13:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 156ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:14:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:14:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:14:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:14:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:14:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:14:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 16:15:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2573ms (Views: 2571.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:15:22 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-20 16:15:37 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/portfolio" for 127.0.0.1 at 2014-09-20 16:15:38 -0700
+Processing by WelcomeController#portfolio as HTML
+  Rendered welcome/portfolio.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/wins" for 127.0.0.1 at 2014-09-20 16:15:38 -0700
+Processing by WelcomeController#wins as HTML
+  Rendered welcome/wins.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:15:39 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:21:24 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1420ms (Views: 1418.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:21:26 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:22:03 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1423ms (Views: 1421.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:22:04 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:24:01 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1428ms (Views: 1426.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:24:03 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:24:29 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1429ms (Views: 1427.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:24:31 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:24:55 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1449ms (Views: 1447.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:24:57 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-20 16:40:19 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 100ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-20 16:40:19 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/portfolio" for 127.0.0.1 at 2014-09-20 16:40:21 -0700
+Processing by WelcomeController#portfolio as HTML
+  Rendered welcome/portfolio.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/wins" for 127.0.0.1 at 2014-09-20 16:40:22 -0700
+Processing by WelcomeController#wins as HTML
+  Rendered welcome/wins.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:40:23 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:41:15 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1417ms (Views: 1415.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:41:17 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:41:20 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:43:34 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1446ms (Views: 1445.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:43:35 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:44:15 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1436ms (Views: 1434.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:44:17 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:44:54 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1430ms (Views: 1428.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:55 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:44:56 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:49:26 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1451ms (Views: 1450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:49:27 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:51:29 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1431ms (Views: 1429.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:51:31 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:54:39 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1464ms (Views: 1462.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:54:40 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 16:55:00 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1426ms (Views: 1423.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 16:55:02 -0700
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2014-09-20 19:55:07 -0700
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:07 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:07 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:07 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-20 19:55:08 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-21 23:26:47 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 820ms (Views: 707.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-22 00:45:21 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 142ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-22 00:45:22 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-09-22 00:46:36 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2174ms (Views: 2172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-09-22 00:46:38 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-10-03 18:44:00 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 2665ms (Views: 2628.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-03 18:44:04 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-03 18:44:05 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-10-03 18:45:04 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1537ms (Views: 1535.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-03 18:45:05 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-10-07 11:16:35 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1991ms (Views: 1941.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-07 11:16:37 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-10-07 11:17:11 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1313ms (Views: 1311.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-07 11:17:13 -0700
+
+
+Started GET "/welcome/cv" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+Processing by WelcomeController#cv as HTML
+  Rendered welcome/cv.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-07 11:33:26 -0700
+
+
+Started GET "/welcome/portfolio" for 127.0.0.1 at 2014-10-07 11:33:29 -0700
+Processing by WelcomeController#portfolio as HTML
+  Rendered welcome/portfolio.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 104ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/images/shinbukandojo.png" for 127.0.0.1 at 2014-10-07 11:33:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/shinbukandojo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (32.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.3ms)
+
+
+Started GET "/welcome/images/image4.jpg" for 127.0.0.1 at 2014-10-07 11:33:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/image4.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.8ms)
+
+
+Started GET "/welcome/images/palo-mayombe.png" for 127.0.0.1 at 2014-10-07 11:33:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/palo-mayombe.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/welcome/www.shinbukandojo.com" for 127.0.0.1 at 2014-10-07 11:33:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/www.shinbukandojo.com"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/welcome/portfolio" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+Processing by WelcomeController#portfolio as HTML
+  Rendered welcome/portfolio.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 105ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/orman.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/pascal.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.rambling.slider/themes/default.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery.rambling.slider.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/welcome/images/shinbukandojo.png" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/shinbukandojo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/welcome/images/palo-mayombe.png" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/palo-mayombe.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/welcome/images/image4.jpg" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/image4.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/assets/ceiba_bg.png" for 127.0.0.1 at 2014-10-07 11:34:10 -0700
+
+
+Started GET "/welcome/images/shinbukandojo.png" for 127.0.0.1 at 2014-10-07 11:34:11 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/shinbukandojo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/welcome/images/image4.jpg" for 127.0.0.1 at 2014-10-07 11:34:11 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/image4.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/welcome/images/palo-mayombe.png" for 127.0.0.1 at 2014-10-07 11:34:11 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/images/palo-mayombe.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.7ms)
+
+
+Started GET "/welcome/www.shinbukandojo.com" for 127.0.0.1 at 2014-10-07 11:34:14 -0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome/www.shinbukandojo.com"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/christopher/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /home/christopher/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)

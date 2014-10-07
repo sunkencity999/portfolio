@@ -12,8 +12,10 @@
  *
  *= require_tree .
  *= require_self
- *= require jquery.rambling.slider
  */
+
+@import "bootstrap";
+
 html, 
 body {
   width: 100%;
@@ -25,5 +27,20 @@ body {
   font-family:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
   sans-serif;
   background-image: url('ceiba_bg.png');
+  color: #fff;
 
+}
+
+.navbar{
+  opacity: 1;
+  background-color: none;
+  border-top: none;
+  border-bottom: none;
+
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFF00;
+    color: #FFC0CB;
 }
